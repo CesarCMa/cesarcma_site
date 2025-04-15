@@ -131,7 +131,7 @@ params:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
-      enable: true
+      enable: false
       name: "Resume"
       url: "#" # TODO: add url to download pdf with CV
       download: true
@@ -156,14 +156,14 @@ params:
       My main motivations are learning new things, solving problems and creating value.
     skills:
       enable: true
-      title: "These are the technologies/frameworks I use:"
+      title: "These are the technologies/frameworks I use on a daily basis:"
       items:
         - "Python"
         - "MLOps"
         - "AWS Cloud"
         - "Docker"
         - "SQL"
-
+        - "Git"
 
   # Experience
   experience:
@@ -291,18 +291,18 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
+      enable: false
+      disableFeaturedImage: true
 
   # List pages like blogs and posts
   listPages:
-    disableFeaturedImage: false
+    disableFeaturedImage: true
 
   # Single pages like blog and post
   singlePages:
-    socialShare: true
+    socialShare: false
     readTime:
-      enable: true
+      enable: false
       content: "min read"
     scrollprogress:
       enable: true
