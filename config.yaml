@@ -1,7 +1,7 @@
 baseURL: "https://cesarcma.site"
 languageCode: "en-us"
 title: "CesarCMa"
-theme: hugo-profile
+theme: hugo-profile-mod
 
 outputs:
   home:
