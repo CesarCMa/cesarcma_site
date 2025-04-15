@@ -170,49 +170,47 @@ params:
   experience:
     enable: true
     # title: "Custom Name"
-    items:
-      - job: "Software Developer / ML Engineer"
-        company: "Novartis - MLE"
-        companyUrl: "https://www.novartis.com/"
-        date: "Oct 2021- Present"
-        featuredLink:
-          enable: false
-        content: |
-          I am currently working as a Machine Learning Engineer on the Digital Finance Hub in Barcelona. My main responsibilities are:
+    companies:
+      - name: "Novartis"
+        url: "https://www.novartis.com/"
+        jobs:
+          - position: "Software Developer / ML Engineer"
+            date: "Oct 2021- Present"
+            featuredLink:
+              enable: false
+            content: |
+              I am currently working as a Machine Learning Engineer on the Digital Finance Hub in Barcelona. My main responsibilities are:
 
-          - Refactor and deploy on cloud PoC projects developed by Data Scientist
-          
-          - Implement MLOps processes that ensure the robustness and scalability of our machine learning models
+              - Refactor and deploy on cloud PoC projects developed by Data Scientist
+              
+              - Implement MLOps processes that ensure the robustness and scalability of our machine learning models
 
-          - Mentoring new team members
+              - Mentoring new team members
 
+          - position: "Expert in Data Science"
+            date: "Oct 2021- Sep 2024"
+            featuredLink:
+              enable: false
+            content: |
+              - Drive the implementation of MLOps processes on a specific project, automating the evaluation of models and developing dashboards that enable easy tracking of new model versions.
 
-      - job: "Expert in Data Science"
-        company: "Novartis - DS"
-        companyUrl: "https://www.novartis.com/"
-        date: "Oct 2021- Sep 2024"
-        featuredLink:
-          enable: false
-        content: |
-          - Drive the implementation of MLOps processes on a specific project, automating the evaluation of models and developing dashboards that enable easy tracking of new model versions.
+              - Product Owner within the Digital Finance Hub in a sales forecasting project, leading the latest phase of the project involving scope expansion of the forecasting model and moving it into maintenance.
 
-          - Product Owner within the Digital Finance Hub in a sales forecasting project, leading the latest phase of the project involving scope expansion of the forecasting model and moving it into maintenance.
+              - Collaboration with Novartis Technical Operations acting as Data Scientist in a cost forecasting project, developing the main model during PoC phase and leading expansion of the project to new plants.
 
-          - Collaboration with Novartis Technical Operations acting as Data Scientist in a cost forecasting project, developing the main model during PoC phase and leading expansion of the project to new plants.
+              - Conduct technical sessions to get to know work developed within the Digital Finance Hub to non-technical profiles both inside and outside Novartis
 
-          - Conduct technical sessions to get to know work developed within the Digital Finance Hub to non-technical profiles both inside and outside Novartis
+      - name: "ConnecThink Innovation"
+        url: "https://connecthink.ai/inicio"
+        jobs:
+          - position: "Data Scientist"
+            date: "March 2020 - Sep 2021"
+            featuredLink:
+              enable: false
+            content: |
+              - Social media data mining via natural language processing and graph databases.
 
-          
-      - job: "Data Scientist"
-        company: "ConnecThink Innovation"
-        companyUrl: "https://connecthink.ai/inicio"
-        date: "March 2020 - Sep 2021"
-        featuredLink:
-          enable: false
-        content: |
-          - Social media data mining via natural language processing and graph databases.
-
-          - Automation of warranty processing via machine learning models, using Dataiku as main workframe.
+              - Automation of warranty processing via machine learning models, using Dataiku as main workframe.
 
 
   # Education
