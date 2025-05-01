@@ -86,7 +86,7 @@
 {{ end }}
 
 {{ if (.Site.Params.contact.formspree.enable | default false) }}
-<script src="{{ .Site.Params.staticPath }}/js/contact.js"></script>
+<script src="{{ "js/contact.js" | relURL }}"></script>
 {{ end }}
 
 {{ if (.Site.Params.customScripts | default false) }}

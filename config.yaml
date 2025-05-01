@@ -52,7 +52,6 @@ Menus:
 params:
   title: "CesarCMa"
   description: Text about my cool site
-  staticPath: ""  # The path to serve the static files from
   favicon: "logo.svg" 
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
@@ -127,7 +126,7 @@ params:
     title: "César Capilla"
     subtitle: "I'm a Machine Learning Engineer."
     content: "I like to build software tools that leverage data to solve **real** problems."
-    image: /images/portrait.jpg
+    image: images/portrait.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -245,7 +244,7 @@ params:
     items:
       - title: Personal Website
         content: This beatiful website you are visiting right now.
-        image: /images/projects/personal_site.png
+        image: images/projects/personal_site.png
         badges:
           - "Hugo"
           - "Bootstrap"
@@ -255,7 +254,7 @@ params:
 
       - title: Recurrent Homer
         content: A simple text generator based on recurrent neural networks. Done during the course of Master's Degree in Artificial Intelligence at the Universitat de València.
-        image: /images/projects/recurrent_homer.png
+        image: images/projects/recurrent_homer.png
         badges:
           - "Python"
           - "TensorFlow"
@@ -266,7 +265,7 @@ params:
 
       - title: Mortgage Calculator
         content: A CLI tool to calculate the monthly payment of a mortgage. Done to put in practice C programming language after completing C-from zero to hero course on LowLeveAcademy.
-        image: /images/projects/mort_calc.png
+        image: images/projects/mort_calc.png
         badges:
           - "C"
         links:
