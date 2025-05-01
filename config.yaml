@@ -51,7 +51,7 @@ Menus:
 
 params:
   title: "CesarCMa"
-  description: Text about my cool site
+  description: "ML Enginner and Software Dev"
   favicon: "logo.svg" 
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
